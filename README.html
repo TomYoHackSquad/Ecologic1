@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Selection</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Sansation', sans-serif;
+      background: #F1EBD3;
+      width: 430px;
+      height: 932px;
+      border: 5px solid #B8916A;
+      border-radius: 65px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ellipse {
+      position: absolute;
+      width: 431px;
+      height: 452px;
+      left: -5px;
+      top: 246px;
+      background: #C8FBFF;
+      filter: blur(25.35px);
+    }
+
+    .title {
+      position: absolute;
+      width: 264px;
+      height: 76px;
+      left: 95px;
+      top: 70px;
+      font-family: 'Saira SemiCondensed', sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 76px;
+      color: #243F50;
+    }
+
+    .points {
+      position: absolute;
+      width: 128px;
+      height: 64px;
+      left: 168px;
+      top: 169px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    .grade-box {
+      box-sizing: border-box;
+      background: #FBE17F;
+      border: 3px solid #000000;
+      border-radius: 15px;
+      position: absolute;
+      width: 170px;
+      height: 60px;
+    }
+
+    .grade-box span {
+      position: absolute;
+      top: 14px;
+      left: 28px;
+      font-weight: 700;
+      font-size: 25px;
+      color: #000000;
+    }
+
+    .grade-8 { top: 226px; left: 230px; }
+    .grade-9 { top: 305px; left: 238px; width: 162px; height: 56px; }
+    .grade-10 { top: 378px; left: 238px; width: 165px; height: 58px; }
+    .grade-11 { top: 453px; left: 238px; width: 162px; height: 56px; }
+    .grade-12 { top: 525px; left: 238px; }
+
+    .choose-grade {
+      position: absolute;
+      width: 216px;
+      height: 150px;
+      left: 60px;
+      top: 712px;
+      background: #2474AD;
+    }
+
+    .choose-grade-text {
+      position: absolute;
+      width: 154px;
+      height: 80px;
+      left: 86px;
+      top: 747px;
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .emoji-art {
+      position: absolute;
+      width: 152px;
+      height: 408px;
+      left: 418px;
+      top: 602px;
+      background: url(e05d596b-ce32-4ca9-a662-22b00ec5f72d-removebg-preview.png);
+      transform: scaleX(-1);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <div class="ellipse"></div>
+  <div class="title">Choose Grade</div>
+  <div class="points">7500⭐</div>
+
+  <div class="grade-box grade-8"><span>Grade 8</span></div>
+  <div class="grade-box grade-9"><span>Grade 9</span></div>
+  <div class="grade-box grade-10"><span>Grade 10</span></div>
+  <div class="grade-box grade-11"><span>Grade 11</span></div>
+  <div class="grade-box grade-12"><span>Grade 12</span></div>
+
+  <div class="choose-grade"></div>
+  <div class="choose-grade-text">Choose a grade</div>
+
+  <div class="emoji-art"></div>
+</body>
+</html>
+3dah

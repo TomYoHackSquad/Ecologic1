@@ -1,1 +1,0 @@
-# Ecologic1
